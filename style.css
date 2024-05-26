@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#circle{
+    color: #fff;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    transition: all cubic-bezier(0.29,1,0.22,1);
+    z-index: 1000;
+    
+   
+}
+
+#main{
+    width: 100%;
+    height: auto;
+   
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+
+#nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#heading{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+
+#heading h1{
+font-size: 14vh;
+line-height: 1;
+text-transform: uppercase;
+font-weight: 800;
+opacity: .57;
+
+}
+#heading1 h5{
+    font-size: 3vh;
+    text-transform: uppercase;
+font-weight: 400;
+opacity: 0.6;
+
+
+}
+
+ #heading #heading2 {
+    margin-left: 140px;
+}
+.blocktext{
+    width: fit-content;
+    display: flex;
+   flex-direction: column;
+   align-items: end;
+
+   
+}
+.blocktext h5{
+    text-align: right;
+} 
+
+.subheading{
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    opacity: 0.7;
+    text-align: right;
+    padding-right: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: 2px solid red;
+    
+}
+.subheading h1{
+    margin-top: 1vh;
+}
+
+.herofooter{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 1vh 2vh;
+   
+}
+.herofooter a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.herofooter ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+.herofooter li{
+    list-style: none;
+    font-size: 2vh;
+    font-weight: 600;
+   
+}
+.circleicon{
+    display: flex;
+    gap: 5px;
+
+}
+.circle1,.circle2{
+    
+    border-radius: 50px;
+    
+    background-color: #888;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#second{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 120px;
+    padding-right: 18vh;
+    padding-left: 6vh;
+    
+}
+.elements{
+    width: 80%;
+    padding: 8vh 3vh;
+    border-top: 2px solid #fff;
+    
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.elements h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 8vh;
+    opacity: 0.5;
+
+}
+.elements h5{
+    color: white;
+   
+
+}
+.elm{
+    border-bottom: 2px solid #fff; /*//doubt */
+}
+.elements img{
+     position: absolute;   /*//doubt */
+    z-index: 999;
+    height: 100%;
+    pointer-events: none;
+    
+    
+    
+
+}
+#about{
+    
+    
+    width: 100vw;
+    height: auto;
+    
+    background-color: black;
+   padding-top: 25vh;
+   padding-left: 85vh;
+   padding-right: 20vh;
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15vh;
+
+   
+}
+#about img{
+   width: 40vw;
+   height: 30vh;
+   border-radius: 50%;
+   size: 25vh;
+
+}
+
+#abouttext{
+    color: white;
+    font-size: 3vh;
+    line-height: 1;
+}
+#abouttext a{
+    text-decoration: none;
+    color: white;
+    
+   
+    border-radius: 75px;
+    font-size: 2.25vh;
+    opacity: 0.7;
+}
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: black;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footerright {
+    display: flex;
+    gap: 30px;
+}
+
+#footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/* Define keyframe animations for product and designer headings */
+@keyframes fadeInUpProduct {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUpDesigner {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes tornoto{
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+  }
+  
+  /* Apply the animations to the headings */
+  #heading .product {
+    animation: fadeInUpProduct 1s ease forwards; /* Apply animation to product heading */
+  }
+  
+  #heading .designer {
+    animation: fadeInUpDesigner 1s ease forwards 0.2s; /* Apply animation with delay to designer heading */
+  }
+
+   .tornoto{
+    animation: tornoto 1s ease forwards 0.4s;
+  }
+  
+   
