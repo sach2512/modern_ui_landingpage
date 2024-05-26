@@ -286,7 +286,7 @@ opacity: 0.6;
 @keyframes fadeInUpProduct {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
@@ -297,7 +297,7 @@ opacity: 0.6;
   @keyframes fadeInUpDesigner {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(30px);
     }
     to {
       opacity: 1;
@@ -307,7 +307,7 @@ opacity: 0.6;
   @keyframes tornoto{
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
       }
       to {
         opacity: 1;
@@ -318,15 +318,15 @@ opacity: 0.6;
   
   /* Apply the animations to the headings */
   #heading .product {
-    animation: fadeInUpProduct 1s ease forwards; /* Apply animation to product heading */
+    animation: fadeInUpProduct 3s ease forwards; /* Apply animation to product heading */
   }
   
   #heading .designer {
-    animation: fadeInUpDesigner 1s ease forwards 0.2s; /* Apply animation with delay to designer heading */
+    animation: fadeInUpDesigner 3s ease forwards 0.2s; /* Apply animation with delay to designer heading */
   }
 
    .tornoto{
-    animation: tornoto 1s ease forwards 0.4s;
+    animation: tornoto 3s ease forwards 0.4s;
   }
   
    
