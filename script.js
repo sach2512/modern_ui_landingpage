@@ -1,10 +1,10 @@
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true,
-    smoothMobile: true, // Enables smooth scrolling on mobile devices
-    inertia: 0.8, // Adjust the inertia of the scroll
-    getDirection: true, // Get scroll direction
-    getSpeed: true // Get scroll speed
+    smoothMobile: true, 
+    inertia: 0.8, 
+    getDirection: true, 
+    getSpeed: true 
   });
 
 function mouse(e){
